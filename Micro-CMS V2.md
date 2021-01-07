@@ -146,3 +146,5 @@ So now we have the username and password for the website. Once entered on the pa
 # Conclusion
 This was a challenge to complete but with some research it was figured out. I look forward to the next web based CTF I do.
 
+If you wish to contact me add me on discord at Ewan#8585
+
