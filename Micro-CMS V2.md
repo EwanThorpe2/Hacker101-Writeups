@@ -31,7 +31,7 @@ After researching it occured to me that when using the single quote I am ending 
 ```sql
 'UNION SELECT 'pass' AS password from admins where '1' = '1 
 ```
-When you enter this into the username field it will set the password to 123 and it has to be correct due to the '1' = '1 which always returns true
+When you enter this into the username field it will set the password to pass and it has to be correct due to the '1' = '1 which always returns true
 The full query looks like this.
 
 ```SQL
