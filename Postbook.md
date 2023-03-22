@@ -23,4 +23,20 @@ I wasnt sure what this meant for awhile so was very confused
 It then occured to me it could be a id for a post so entered 189*5 and nothing came up
 So i did the maths and entered 945 and sure enough was given the flag
 
+# Flag 4
+For flag 4 i was abit confused till i saw a video on cookies and i wondered if the site stored the user id in the cookies
+Sure enough when you login a ID is stored as a cookie.
+I took the value and tried to decode as hex but got no worthwhile results
+I then tried to do it as a hash and tried md5 
+It came back as a value of 2
+I then entered the MD5 value for 1 to try login as admin
+And it worked and gave me the flag
 
+# Flag 5
+Getting this flag took a while of playing around with the different functions of the site and burpsuite intercepts
+when deleting a page i noticed the ID was similar to that of flag 4 so i entered the same value i did for flag4
+When i put the request through it deleted a post not belong to the user i was signed in as and gave me the flag.
+
+# Conclusion
+I learned alot about using burpsuite this CTF which is invaluable knowledge to have
+I also learned some new skills at identifying exploitable cookies
