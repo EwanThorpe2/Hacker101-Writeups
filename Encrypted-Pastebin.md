@@ -25,8 +25,8 @@ And flag0
 Because the above error we know we can use a padding oracle attack to decrypt the ciphertext to plain text.
 Using padbuster and the information we know from above we can do the command
 ```
-perl padBuster.pl http://35.190.155.168/f5c667003b/?post=2Kd3EniEeQNVWHUpjfrOEc91mT1yeDrbKmV3hKchjJhj23k0lHY8QgGqWI9+4vKZNYktNtm4Nc+qjXmFZ+WPOD6dATUxsd1cW7l6QdobGqW68YZpWD6RYockKjO4dTpxGTU2OPwAs1JOwPefvueHqRpFqdV68skbN0WysdEbA+Eexzy0NLPXoV1Mf/QtjruuII6QbrZJ1luEY2FWLQ8UNA== 2Kd3EniEeQNVWHUpjfrOEc91mT1yeDrbKmV3hKchjJhj23k0lHY8QgGqWI9+4vKZNYktNtm4Nc+qjXmFZ+WPOD6dATUxsd1cW7l6QdobGqW68YZpWD6RYockKjO4dTpxGTU2OPwAs1JOwPefvueHqRpFqdV68skbN0WysdEbA+Eexzy0NLPXoV1Mf/QtjruuII6QbrZJ1luEY2FWLQ8UNA== 16 -encoding 0
+perl padBuster.pl http://35.190.155.168/f5c667003b/?post=2Kd3EniEeQNVWHUpjfrOEc91mT1yeDrbKmV3hKchjJhj23k0lHY8QgGqWI9+4vKZNYktNtm4Nc+qjXmFZ+WPOD6dATUxsd1cW7l6QdobGqW68YZpWD6RYockKjO4dTpxGTU2OPwAs1JOwPefvueHqRpFqdV68skbN0WysdEbA+Eexzy0NLPXoV1Mf/QtjruuII6QbrZJ1luEY2FWLQ8UNA== 2Kd3EniEeQNVWHUpjfrOEc91mT1yeDrbKmV3hKchjJhj23k0lHY8QgGqWI9+4vKZNYktNtm4Nc+qjXmFZ+WPOD6dATUxsd1cW7l6QdobGqW68YZpWD6RYockKjO4dTpxGTU2OPwAs1JOwPefvueHqRpFqdV68skbN0WysdEbA+Eexzy0NLPXoV1Mf/QtjruuII6QbrZJ1luEY2FWLQ8UNA== 16 -encoding 0i t
 ```
 This takes awhile to run but afterwards you get the ciphertext back decrypted as plaintext which is the flag, an ID and the key.
 
-
+# Flag 2
