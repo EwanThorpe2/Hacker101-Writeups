@@ -27,7 +27,7 @@ Using padbuster and the information we know from above we can do the command
 
 With the information above you can replace the symbols to the correct ones for the Padbuster command
 ```
-perl padBuster.pl http://35.190.155.168/f5c667003b/?post=2Kd3EniEeQNVWHUpjfrOEc91mT1yeDrbKmV3hKchjJhj23k0lHY8QgGqWI9+4vKZNYktNtm4Nc+qjXmFZ+WPOD6dATUxsd1cW7l6QdobGqW68YZpWD6RYockKjO4dTpxGTU2OPwAs1JOwPefvueHqRpFqdV68skbN0WysdEbA+Eexzy0NLPXoV1Mf/QtjruuII6QbrZJ1luEY2FWLQ8UNA== 2Kd3EniEeQNVWHUpjfrOEc91mT1yeDrbKmV3hKchjJhj23k0lHY8QgGqWI9+4vKZNYktNtm4Nc+qjXmFZ+WPOD6dATUxsd1cW7l6QdobGqW68YZpWD6RYockKjO4dTpxGTU2OPwAs1JOwPefvueHqRpFqdV68skbN0WysdEbA+Eexzy0NLPXoV1Mf/QtjruuII6QbrZJ1luEY2FWLQ8UNA== 16 -encoding 0i t
+perl padBuster.pl http://35.190.155.168/f5c667003b/?post=2Kd3EniEeQNVWHUpjfrOEc91mT1yeDrbKmV3hKchjJhj23k0lHY8QgGqWI9+4vKZNYktNtm4Nc+qjXmFZ+WPOD6dATUxsd1cW7l6QdobGqW68YZpWD6RYockKjO4dTpxGTU2OPwAs1JOwPefvueHqRpFqdV68skbN0WysdEbA+Eexzy0NLPXoV1Mf/QtjruuII6QbrZJ1luEY2FWLQ8UNA== 2Kd3EniEeQNVWHUpjfrOEc91mT1yeDrbKmV3hKchjJhj23k0lHY8QgGqWI9+4vKZNYktNtm4Nc+qjXmFZ+WPOD6dATUxsd1cW7l6QdobGqW68YZpWD6RYockKjO4dTpxGTU2OPwAs1JOwPefvueHqRpFqdV68skbN0WysdEbA+Eexzy0NLPXoV1Mf/QtjruuII6QbrZJ1luEY2FWLQ8UNA== 16 -encoding 0
 ```
 This takes awhile to run but afterwards you get the ciphertext back decrypted as plaintext which is the flag, an ID and the key.
 
