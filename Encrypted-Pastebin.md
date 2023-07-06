@@ -32,3 +32,10 @@ perl padBuster.pl http://35.190.155.168/f5c667003b/?post=2Kd3EniEeQNVWHUpjfrOEc9
 This takes awhile to run but afterwards you get the ciphertext back decrypted as plaintext which is the flag, an ID and the key.
 
 # Flag 2
+For this flag you need to use python scripts that make use of base64 encoding and decoding and XOR
+I didnt know how to do this so i sadly read a writeup 
+https://sec.wonderingraven.net/hacker-ctf/write-up-hacker101-encrypted-pastebin/
+and used their code for the python script
+
+Upon using this i got the flag
+
