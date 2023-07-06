@@ -38,4 +38,4 @@ https://sec.wonderingraven.net/hacker-ctf/write-up-hacker101-encrypted-pastebin/
 and used their code for the python script
 
 Upon using this i got the flag
-
+At this point i stop the CTF as its above my knowledge and i will return to it when i understand encryption attacks more
